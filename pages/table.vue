@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-data-table :items="items" :page="page" :items-per-page="1" class="my-table">
+    <v-data-table :items="items" :page="page" :items-per-page="5" class="my-table">
       <template #[`header.size`]="{ column }">
         {{ column.title.toUpperCase() }}
       </template>
